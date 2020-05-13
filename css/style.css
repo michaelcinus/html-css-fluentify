@@ -1,0 +1,93 @@
+/* general predisposition */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+
+/* header */
+header{
+  background-color: blue;
+  position: relative;
+  /* debug */
+  height: 60vh;
+}
+
+header img {
+  height: 80%;
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+/* navbar */
+.nav{
+  /* debug */
+  background-color: red;
+  height: 15%;
+}
+.nav:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnsx{
+  float: left;
+  /* debug */
+  width: 33%;
+  height: 100%;
+  border: solid 2px black;
+}
+
+.column-center{
+  float: left;
+  /* debug */
+  width: 33%;
+  height: 100%;
+  border: solid 2px black;
+}
+
+.columndx{
+  float: left;
+  /* debug */
+  width: 33%;
+  height: 100%;
+  border: solid 2px black;
+}
+
+/* title */
+.title{
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 30%;
+}
+
+.title h1{
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.title a{
+  color: white;
+  padding: 15px;
+  background-color: green;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* main */
+
+
+
+/* footer */
