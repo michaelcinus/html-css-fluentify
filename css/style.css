@@ -30,7 +30,7 @@ header img {
 }
 
 /* navbar */
-.nav{
+#nav{
   /* debug */
   background-color: red;
   height: 15%;
@@ -87,6 +87,41 @@ header img {
 }
 
 /* main */
+#top-text{
+  background-color: #afafaf;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* block 3 column */
+#block-3column:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#block-3column div{
+  float: left;
+  /* debug */
+  height: 200px;
+  width: 33%;
+  border: solid 2px black;
+}
+
+/* block 2 column */
+#block-2column:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#block-2column div{
+  float: left;
+  /* debug */
+  height: 200px;
+  width: 50%;
+  border: solid 2px black;
+}
 
 
 
