@@ -123,6 +123,21 @@ header img {
   border: solid 2px black;
 }
 
-
-
 /* footer */
+footer{
+  background-color: #afafaf;
+}
+
+#footer-3column:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#footer-3column div{
+  float: left;
+  /* debug */
+  height: 150px;
+  width: 33%;
+  border: solid 2px black;
+}
