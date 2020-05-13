@@ -140,6 +140,7 @@ header img {
 }
 
 .column-3column h3{
+  font-size: 1.7em;
   padding: 10px 0;
   color: green;
 }
@@ -197,16 +198,17 @@ footer{
   background-color: #afafaf;
 }
 
-#footer-3column:after{
+#footer-2column:after{
   content: "";
   display: table;
   clear: both;
 }
 
-#footer-3column div{
+#footer-2column div{
   float: left;
-  /* debug */
-  width: 33%;
-  height: 150px;
-  border: solid 2px black;
+  width: 50%
+}
+
+.footer-columnsx h2{
+  padding: 40px 0;
 }
