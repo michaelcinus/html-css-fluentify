@@ -206,6 +206,7 @@ footer{
   background-color: #afafaf;
 }
 
+/* column sx footer */
 #footer-2column:after{
   content: "";
   display: table;
@@ -219,4 +220,39 @@ footer{
 
 .footer-columnsx h2{
   padding: 40px 0;
+}
+
+/* column dx footer */
+.footer-columndx div{
+  display: inline-block;
+  height: 100px;
+}
+
+.help{
+  position: relative;
+}
+
+.help span{
+  position: absolute;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.help a{
+  text-decoration: none;
+  color: white;
+}
+
+#vis{
+  padding: 10px;
+  font-size: 0.8em;
+  text-align: center;
+  top:25%;
+  left:25%;
+}
+
+#he{
+  padding: 7px;
+  left:50%;
+  bottom: 0;
 }
