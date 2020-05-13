@@ -30,10 +30,9 @@ header img {
 }
 
 /* navbar */
-#nav{
-  /* debug */
-  background-color: red;
-  height: 15%;
+#nav a{
+  font-size: 0.8em;
+
 }
 .nav:after{
   content: "";
@@ -41,36 +40,61 @@ header img {
   clear: both;
 }
 
+/* column left */
 .columnsx{
   float: left;
-  /* debug */
-  width: 33%;
-  height: 100%;
-  border: solid 2px black;
+}
+
+/* column center */
+.column-center{
+  float: left;
 }
 
 .column-center{
   float: left;
-  /* debug */
-  width: 33%;
-  height: 100%;
-  border: solid 2px black;
 }
 
+.column-center li{
+  padding: 20px 5px;
+  display: inline-block;
+}
+
+.column-center a{
+  color: white;
+  text-decoration: none;
+}
+
+/* column right */
 .columndx{
-  float: left;
-  /* debug */
-  width: 33%;
-  height: 100%;
-  border: solid 2px black;
+  padding: 20px;
+  float: right;
+}
+
+.columndx span{
+  padding: 5px;
+}
+
+#login{
+  border-radius: 5px;
+  border: solid 2px white;
+}
+
+#strut{
+  background-color: green;
+  border-radius: 5px;
+}
+
+.columndx a{
+  color: white;
+  text-decoration: none;
 }
 
 /* title */
 .title{
-  color: white;
   position: absolute;
+  color: white;
   left: 0;
-  bottom: 30%;
+  bottom: 20%;
 }
 
 .title h1{
@@ -137,7 +161,7 @@ footer{
 #footer-3column div{
   float: left;
   /* debug */
-  height: 150px;
   width: 33%;
+  height: 150px;
   border: solid 2px black;
 }
